@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 4.7rem;
+  font-family: serif;
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#video-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  flex: 1 1 40rem;
+}
+
+nav {
+  flex: 1 1 40rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.active {
+  border-bottom: 0.2rem solid white;
+  padding-bottom: 0.3rem;
+}
+.hero {
+  padding-top: 10rem;
+  width: 100%;
+}
+
+.hero-wrapper {
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.heading {
+  margin-bottom: 13rem;
+  width: 55rem;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  width: 0.2rem;
+  height: 47rem;
+  background: white;
+  position: absolute;
+  top: -110%;
+  right: -20%;
+}
+
+.text {
+  margin-bottom: 10rem;
+  width: 60rem;
+  position: relative;
+  padding-left: 3rem;
+}
+
+.text::before {
+  content: "";
+  width: 66rem;
+  height: 0.2rem;
+  background: white;
+  position: absolute;
+  top: -24%;
+  left: 0%;
+}
+
+.text::after {
+  content: "";
+  background: white;
+  width: 0.2rem;
+  height: 20rem;
+  position: absolute;
+  top: -24%;
+  left: 0%;
+}
+
+.arrow {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: white;
+  padding: 3.6rem;
+  margin: auto;
+}
