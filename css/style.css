@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 3rem;
+  background: linear-gradient(to left, #262D5B, #04060E)
 }
 
 h2 {
